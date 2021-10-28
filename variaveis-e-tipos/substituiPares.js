@@ -26,3 +26,4 @@ let retorno = [2, 8, 11, 16, 77, 33, 323, 91];
 console.log(substituiPares(retorno));
 
 //Este exemplo deve retornar [0, 0, 11, 0, 77, 33, 323, 91]
+//Caso o input seja [] devemos ter o retorno -1
