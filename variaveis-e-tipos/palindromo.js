@@ -1,22 +1,29 @@
-// solução 1
+//Solução 1
 function verificaPalindromo(string) {
-	if (!string) return;
-	console.log(string === string.split('').reverse().join(''));
+    if(!string) return;
+
+    /*split irá dividir a string que será colocada em uma array
+    em seguida, join irá reunir essa array novamente em uma string.*/
+    console.log(string === string.split('').reverse().join(''));
 }
-verificaPalindromo('cat');
+verificaPalindromo('ovo')
 
-// solução 2
+//Solução 2
 
-function varificaPalindromo2(string) {
-	if (!string) return;
-	if (!string.length) return;
+function verificaPalindromo2(string) {
+    if(!string) return;
 
-	for (var i = 0; i < string.length / 2; i++) {
-		if (string[i] !== string[string.length - 1 - i]) {
-			return console.log(false);
-		}
-	}
-	return console.log(true);
+    /*Aqui estamos pedindo para que ele compare dois caracteres a cada loop,
+     para isso pedimos para que seja feita a soma do indice até se igualar com a string
+     e podemos fazer apenas metade dos loops. (string.length / 2)*/
+    for(let i = 0; i < string.length / 2; i++) {
+        //Lembre que o indice inicia em 0 e a length em 1, então pedimos -1 e -i para manter igualado
+        if(string[i] !== string[string.length -1 -i]) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
-varificaPalindromo2('asa');
+console.log(verificaPalindromo2("abba"));
