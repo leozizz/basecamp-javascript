@@ -1,6 +1,6 @@
 # Variáveis e Tipos
 
-Neste repositório você encontrará a atividade prática proposta pelo curso "Variáveis e Tipos" do Basecamp de Javascript que ministrei pela Digital Innovation One.
+Neste repositório você encontrará a atividade prática proposta pelo curso "Variáveis e Tipos" que faz parte do Basecamp de Javascript ministrados pela [Stephany Nusch](https://github.com/stebsnusch) na [Digital Innovation One](https://digitalinnovation.one/).
 
 ## Atividade 1
 
