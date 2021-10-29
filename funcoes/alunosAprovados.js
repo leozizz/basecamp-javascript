@@ -1,33 +1,41 @@
+//Array contendo os alunos, nota e turma.
 const alunos = [
-	{
-		nome: 'João',
-		nota: 5,
-		turma: '1B',
-	},
-	{
-		nome: 'Sofia',
-		nota: 9,
-		turma: '1B',
-	},
-	{
-		nome: 'Paulo',
-		nota: 6,
-		turma: '2C',
-	},
+    {
+        nome: 'Lucas',
+        nota: 8,
+        turma: '3B',
+    },
+    {
+        nome: 'José',
+        nota: 5,
+        turma: '3B',
+    },
+    {
+        nome: 'Caroline',
+        nota: 6,
+        turma: '2C'
+    },
+    {
+        nome: 'Ana C',
+        nota: 3,
+        turma: '1C',
+    }
 ];
 
-function alunosAprovados(alunos, media) {
-	let aprovados = [];
+//Função que irá popular o array auxiliar com os alunos de nota maior ou igual a média
+function alunosAprovados(arr, media) {
+    let aprovados = [];
+    
+    for(let i = 0; i < arr.length; i++) {
 
-	for (let i = 0; i < alunos.length; i++) {
-		let { nota, nome } = alunos[i];
+        const {nota, nome} = arr[i];
 
-		if (nota >= media) {
-			aprovados.push(nome);
-		}
-	}
+        if(nota >= media){
+            aprovados.push(nome)
+        }
+    }
 
-	return aprovados;
+    return aprovados
 }
 
-console.log(alunosAprovados(alunos, 5));
+console.log(alunosAprovados(alunos, 5))
