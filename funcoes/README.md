@@ -1,6 +1,6 @@
 # Funções
 
-Projetos referentes ao curso "Funções" que ministrei pela [Digital Innovation One](https://digitalinnovation.one/).
+Projetos referentes ao curso "Funções" ministrado pela [Stephany Nusch](https://github.com/stebsnusch) na [Digital Innovation One](https://digitalinnovation.one/).
 
 ## Atividade 1: Alunos Aprovados
 
