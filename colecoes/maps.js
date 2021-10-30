@@ -1,21 +1,22 @@
-const getAdmins = (map) => {
-	let admins = [];
+//Função que irá receber o Map
+function getAdmins(map) {
+    let admins = [];
 
-	for ([key, value] of map) {
-		if (value === 'ADMIN') {
-			admins.push(key);
-		}
-	}
+    //"for" que ira iterar cada entrada do map, no caso a chave e o valor
+    for([key, value] of map) {
+        if(value === 'Admin') {
+            admins.push(key)
+        }
+    }
+    return admins;
+}
 
-	return admins;
-};
+//Const responsável por popular o map com os usuarios e papeis no sistema.
+const usuarios = new Map();
 
-const userRoles = new Map();
+usuarios.set('Leonardo', 'Admin');
+usuarios.set('Ingrid', 'User');
+usuarios.set('Vinicius', 'Admin');
+usuarios.set('Giovani', 'Admin');
 
-userRoles.set('Stephany', 'SUDO');
-userRoles.set('Luiz', 'ADMIN');
-userRoles.set('Elvira', 'ADMIN');
-userRoles.set('Carolina', 'USER');
-userRoles.set('Guilherme', 'USER');
-
-console.log(getAdmins(userRoles));
+console.log(getAdmins(usuarios))
