@@ -1,6 +1,6 @@
 # Coleções Chaveadas
 
-Este repositório contém a atividade prática do Curso "Coleções Chaveadas", que faz parte do Basecamp de Javascript que minstrei pela [Digital Innovation One](https://digitalinnovation.one/).
+Este repositório contém a atividade prática do Curso "Coleções Chaveadas", que faz parte do Basecamp de Javascript ministrado pela [Stephany Nusch](https://github.com/stebsnusch) na [Digital Innovation One](https://digitalinnovation.one/).
 
 ## Atividade 1: Maps
 
