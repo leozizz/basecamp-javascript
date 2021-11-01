@@ -1,5 +1,5 @@
 
-//Função responsável pela troca do modo escuro
+//Função responsável pela troca do modo escuro contendo as funções que muda as classes e os textos
 function changeMode() {
     changeClass()
     changeText()
