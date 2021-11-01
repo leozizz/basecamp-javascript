@@ -5,6 +5,7 @@ body {
 	color: #4e545c;
 	margin: 0;
 	font-family: 'Quicksand';
+    transition: all 0.5s linear
 }
 
 body.dark-mode {
@@ -30,6 +31,7 @@ footer {
 	bottom: 0;
 	text-align: center;
 	font-weight: 400;
+    transition: all 0.5s linear
 }
 
 footer.dark-mode {
