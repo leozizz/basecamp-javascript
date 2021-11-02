@@ -1,26 +1,31 @@
-function calculaSaldo(saldo, itens) {
-	if (!saldo || !itens || !itens.length) return 'Envie todos os parâmetros';
+//Função que recebe uma lista de preços e um número representando o saldo disponível. 
 
-	const saldoFinal = itens.reduce((acc, item) => acc - item.preco, saldo);
+const lista = [
+    {
+        name: 'Tiras de frango',
+        preco: 11.90
+    },
+    {
+        name: 'Nescau',
+        preco: 10
+    },
+    {
+        name: 'Pão',
+        preco: 9.99,
+    }
+]
 
-	return `O saldo final será de ${saldoFinal} reais`;
+const saldoDisponivel = 100
+
+//Calcula qual será o saldo final após subtrair todos os preços da lista enviada.
+
+function calculaSaldo(saldoDisponivel, lista) {
+    return lista.reduce(function (prev, current, index) {
+        console.log("rodada", index + 1)
+        console.log({prev})
+        console.log({current})
+        return prev - current.preco
+    }, saldoDisponivel)
 }
 
-lista = [
-	{
-		preco: 2,
-		nome: 'maçã',
-	},
-	{
-		preco: 30,
-		nome: 'roupa',
-	},
-	{
-		preco: 25,
-		nome: 'carne',
-	},
-];
-
-saldo = 100;
-
-console.log(calculaSaldo(saldo, lista));
+console.log(calculaSaldo(saldoDisponivel, lista))
