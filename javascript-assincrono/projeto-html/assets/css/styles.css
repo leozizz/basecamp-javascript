@@ -7,7 +7,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	height: 100vh;
 	margin: 0;
-	background-color: beige;
+	background-color: rgb(125, 203, 255);
 }
 
 img {
@@ -24,7 +24,7 @@ button {
 	font-size: 1.2rem;
 	font-weight: 500;
 	padding: 16px;
-	background: orangered;
+	background: rgb(84, 46, 252);
 	color: white;
 	margin: 20px 0;
 	cursor: pointer;
@@ -32,5 +32,5 @@ button {
 }
 
 button:hover {
-	background: orange;
+	background: rgb(1, 60, 255);
 }
