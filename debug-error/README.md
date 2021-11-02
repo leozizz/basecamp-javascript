@@ -1,6 +1,6 @@
 # Tratamento de Erros
 
-Projeto referente ao curso "Tratamento de Erros" que ministrei pela [Digital Innovation One](https://digitalinnovation.one/).
+Projeto referente ao curso "Tratamento de Erros" que faz parte do Basecamp de Javascript ministrados pela [Stephany Nusch](https://github.com/stebsnusch) na [Digital Innovation One](https://digitalinnovation.one/).
 
 ## Atividade: validação de erros por tipo
 
