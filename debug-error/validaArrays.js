@@ -15,6 +15,8 @@ function validaArray(arr, num) {
 
         return arr
     }
+
+    //Caso o erro seja uma instancia de (Erro), iremos retornar no console a mensagem, o nome e o stack do erro.
     catch(e) {
         if (e instanceof ReferenceError) {
             console.log("Este erro é um ReferenceError!")
